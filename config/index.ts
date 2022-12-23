@@ -1,0 +1,9 @@
+export const CURRENCY = 'usd'
+export const PERCENTAGE = '%'
+// Set your amount limits: Use float for decimal currencies and
+// Integer for zero-decimal currencies: https://stripe.com/docs/currencies#zero-decimal.
+export const MIN_AMOUNT = 10
+export const MAX_AMOUNT = 5000
+export const AMOUNT_STEP = 5
+export const MIN_TIP = 15
+export const MAX_TIP = 200
